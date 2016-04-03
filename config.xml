@@ -10,5 +10,7 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="windows-target-version" value="10.0" />
-	<gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.2" />
+	<!-- <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.1" />
+	<plugin name="de.appplant.cordova.plugin.local-notification-ios9-fix" spec="0.8.2" source="pgb" /> -->
+	<plugin name="trunk.plugin.local-notification" spec="0.8.2" source="pgb" />
 </widget>
